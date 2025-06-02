@@ -2,7 +2,6 @@ import pygame
 import random
 from recursos.basicos import limparTela, aguarde
 pygame.init()
-print("kkkk")
 comprimentoTela = 800
 larguraTela = 600
 larguraIron = 50
