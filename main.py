@@ -1,8 +1,8 @@
 import pygame
 import random
-import sys
 from recursos.basicos import limparTela, aguarde
 pygame.init()
+print("kkkk")
 comprimentoTela = 800
 larguraTela = 600
 larguraIron = 50
@@ -26,8 +26,6 @@ pygame.mixer_music.play(-1)
 posicaoXmissel = 100
 posicaoYmissel = -250
 velocidadeMissel = 1
-iron = pygame.Rect(275, 400)
-missel = pygame.Rect(100, -250)
 pygame.mixer.Sound.play(misselSound)
 pontos = 0
 fonte = pygame.font.SysFont('comicsant', 18)
